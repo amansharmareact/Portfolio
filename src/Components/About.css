@@ -1,0 +1,52 @@
+.featured-box {
+  box-sizing: border-box;
+  position: relative;
+}
+.featured-box-icon {
+  align-items: center;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-shrink: 0;
+  height: 120px;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  width: 120px;
+  min-height: 55px;
+  min-width: 55px;
+  padding: 0;
+  font-weight: 500
+}
+
+.conta{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.dabba{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: beige;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        background-color: yellow;
+}
+.no{
+    position: absolute;
+    inset: 0;
+    font-size: 150px;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+
+
+}

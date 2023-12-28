@@ -1,0 +1,58 @@
+.hero-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.hero-wrap .hero-mask {
+ 
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.hero-wrap .hero-mask {
+    z-index: 1;
+}
+.hero-wrap .hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.react-parallax-content{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hire-button {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 18px;
+    color:white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   .hire-button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0C356A 0%, #E6B9DE 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .hire-button:hover::before {
+    width: 9em;
+   }
