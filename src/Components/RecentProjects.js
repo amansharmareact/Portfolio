@@ -7,7 +7,7 @@ import "./RecentProjects.css";
 const RecentProjects = () => {
   const [activeLink, setActiveLink] = useState("All");
   return (
-    <section id="projects" class=" h-screen section bg-light">
+    <section id="projects" class="lg:h-screen section bg-light">
       <div class="container">
         <p className="text-center mb-2 wow fadeInUp mt-5">
           <span
@@ -48,7 +48,7 @@ const RecentProjects = () => {
       </ul> */}
         <div class="portfolio wow fadeInUp" data-wow-visible="true">
           <div className="flex flex-wrap relative row -mx-4 ">
-            <div class="portfolio-box col-sm-6 col-lg-4 col-3 ">
+            <div class="portfolio-box col-sm-12 col-lg-4 ">
               <div class="portfolio-img">
                   <img
                     className="rounded project-image"
@@ -65,7 +65,7 @@ const RecentProjects = () => {
                   </div>
               </div>
             </div>
-            <div class="portfolio-box col-sm-6 col-lg-4 col-3 ">
+            <div class="portfolio-box col-sm-12 col-lg-4 ">
               <div class="portfolio-img">
                   <img
                     className="rounded project-image"
@@ -82,7 +82,7 @@ const RecentProjects = () => {
                   </div>
               </div>
             </div>
-            <div class="portfolio-box col-sm-6 col-lg-4 col-3 ">
+            <div class="portfolio-box col-sm-12 col-lg-4  ">
               <div class="portfolio-img">
                   <img
                     className="rounded project-image"

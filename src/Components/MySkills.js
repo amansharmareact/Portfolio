@@ -2,7 +2,7 @@ import React from 'react'
 
 const MySkills = () => {
   return (
-    <section className='lg:h-screen h-150vh    md:mt-80'>
+    <section className='lg:h-screen h-150vh md:mt-80'>
          <p className="text-center mb-2 wow fadeInUp mt-5">
           <span
             className=" text-white text-2xl px-2"
@@ -11,7 +11,8 @@ const MySkills = () => {
             My Skills
           </span>
         </p>
-    <div className="h-screen flex flex-wrap mt-5 -mx-2 pl-32 pr-32">
+        <div className="h-screen flex flex-wrap mt-5 mx-2 md:pl-32 md:pr-32 lg:pl-48 lg:pr-48">
+
      
     <div className="w-full md:w-1/2 px-2  md:mb-0 wow fadeInUp" style={{ visibility: 'visible' }}>
       <p className="font-semibold text-start mb-2">Web Design <span className="float-right">80%</span></p>

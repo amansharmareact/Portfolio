@@ -73,7 +73,7 @@ const Contact = () => {
             <address className="text-xl text-left	">Noida, UP</address>
             <h3 className="text-2xl font-extrabold text-left	mt-5">Call:</h3>
             <p className="text-xl text-left	">+91-8077124346</p>
-            <ul className="social-icons social-icons-lg justify-content-center lg:justify-content-start mt-5">
+            <ul className="social-icons social-icons-lg justify-content-center lg:justify-content-start my-5">
               {/* <li className="social-icons-facebook">
                 <a
                   href="https://www.facebook.com/profile.php?id=100004231638868"
