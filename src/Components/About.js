@@ -30,7 +30,7 @@ const About = () => {
             </span>
           </h2>
           <p className="text-[1.3125rem] leading-8 mt-5">
-            I'm a developer &amp; App developer with a passion for web design. I
+            I'm a Website Developer with a passion for web design.
             enjoy developing simple, clean and slick websites that provide real
             value to the end user. Many clients have procured
             exceptional results while working with me. Delivering work within
