@@ -7,3 +7,6 @@ body{
 *{
     font-family: Poppins,sans-serif !important;
 }
+.app{
+    overflow-x: hidden;
+}

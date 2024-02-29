@@ -14,7 +14,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='d-flex flex-column '>
+    <div className='d-flex flex-column app'>
       <DrawerAppBar/>
       <Profile/>
       <About/>
