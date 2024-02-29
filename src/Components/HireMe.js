@@ -40,6 +40,7 @@ const HireMe = () => {
                 <h2 class="text-5xl font-extrabold text-white mb-5">
                   Interested in working with me?
                 </h2>
+                <a href="#contact">
                 <button
                   href="/"
                   class="hire-button"
@@ -48,6 +49,7 @@ const HireMe = () => {
                 >
                   Hire Me!
                 </button>
+                </a>
               </div>
             </div>
           </div>

@@ -1,5 +1,10 @@
 import React from "react";
 import "./WhatIDo.css";
+import { SiTaichigraphics } from "react-icons/si";
+import { FaDesktop } from "react-icons/fa";
+import { FaPencilRuler } from "react-icons/fa";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { IoShareSocial } from "react-icons/io5";
 
 const WhatIDo = () => {
   return (
@@ -17,18 +22,18 @@ const WhatIDo = () => {
             What I do?
           </span>
         </p>
-        <h2 class="text-4xl mt-5 mb-5 font-extrabold text-center mb-5 wow fadeInUp">
+        <h2 class="text-4xl mt-5 font-extrabold text-center mb-5 wow fadeInUp">
           How I can help your next project
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
           <div class="wow fadeInUp">
             <div class="featured-box text-center px-4 py-6">
-              <div class="text-primary text-2xl mb-3">
-                <i class="fas fa-palette"></i>
+              <div class="text-primary text-2xl mb-3 flex justify-center">
+              <SiTaichigraphics />
               </div>
               <h3 class="text-2xl font-extrabold mb-3">Graphic Design</h3>
               <p class="text-muted mb-0">
-                communication to convey messages, ideas, or information.
+                Communication to convey messages, ideas, or information.
                 Utilizing typography, imagery, color, and layout, graphic
                 designers craft visually appealing solutions for various
                 mediums, enhancing brand identity and user experience while
@@ -38,8 +43,8 @@ const WhatIDo = () => {
           </div>
           <div class="wow fadeInUp">
             <div class="featured-box text-center px-4 py-6">
-              <div class="text-primary text-2xl mb-3">
-                <i class="fas fa-desktop"></i>
+              <div class="text-primary text-4xl mb-3 flex justify-center">
+              <FaDesktop />
               </div>
               <h3 class="text-2xl font-extrabold mb-3">Web Design</h3>
               <p class="text-muted mb-0">
@@ -54,8 +59,8 @@ const WhatIDo = () => {
           </div>
           <div class="wow fadeInUp">
             <div class="featured-box text-center px-4 py-6">
-              <div class="text-primary text-2xl mb-3">
-                <i class="fas fa-pencil-ruler"></i>
+              <div class="text-primary text-4xl mb-3 flex justify-center">
+              <FaPencilRuler />
               </div>
               <h3 class="text-2xl font-extrabold mb-3">UI/UX Design</h3>
               <p class="text-muted mb-0">
@@ -69,9 +74,9 @@ const WhatIDo = () => {
             </div>
           </div>
           <div class="wow fadeInUp">
-            <div class="featured-box text-center px-4 py-6">
-              <div class="text-primary text-2xl mb-3">
-                <i class="fas fa-paint-brush"></i>
+            <div class="featured-box text-center px-4 py-6 ">
+              <div class="text-primary text-4xl mb-3 flex justify-center">
+              <IoLogoGooglePlaystore />
               </div>
               <h3 class="text-2xl font-extrabold mb-3">App Design & Develop</h3>
               <p class="text-muted mb-0">
@@ -79,11 +84,10 @@ const WhatIDo = () => {
               </p>
             </div>
           </div>
-        
           <div class="wow fadeInUp">
             <div class="featured-box text-center px-4 py-6">
-              <div class="text-primary text-2xl mb-3">
-                <i class="fas fa-bullhorn"></i>
+              <div class="text-primary text-4xl mb-3 flex justify-center">
+              <IoShareSocial />
               </div>
               <h3 class="text-2xl font-extrabold mb-3">SEO Marketing</h3>
               <p class="text-muted mb-0">

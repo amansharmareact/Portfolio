@@ -21,7 +21,7 @@ function App() {
       <WhatIDo/>
       <Resume/>
       <MySkills/>
-      {/* <RecentProjects/> */}
+      <RecentProjects/>
       <HireMe/>
       <Contact/>
       <Footer/>

@@ -30,9 +30,9 @@ const About = () => {
             </span>
           </h2>
           <p className="text-[1.3125rem] leading-8 mt-5">
-            I'm a designer &amp; developer with a passion for web design. I
+            I'm a developer &amp; App developer with a passion for web design. I
             enjoy developing simple, clean and slick websites that provide real
-            value to the end user. Thousands of clients have procured
+            value to the end user. Many clients have procured
             exceptional results while working with me. Delivering work within
             time and budget which meets client’s requirements is our moto.
           </p>
@@ -45,7 +45,7 @@ const About = () => {
           <div className="featured-box style-4 flex items-center justify-center flex-col">
             <div className="conta">
               <div className="dabba"></div>
-              <div className="no">01</div>
+              <div className="no">02</div>
             </div>
             <h3
               className="text-3xl wow rubberBand text-center"
